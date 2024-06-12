@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Page Transition with Animated Checkboxes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <h2>Venoox</h2>
+  </nav>
+  <div class="container">
+    <form class="checkbox-container">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="page1">
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="page2">
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="page3">
+      </div>
+    </form>
+    <div class="page-content" id="content">
+      <div class="page" id="page1-content">
+        <!--first slide-->
+        <div class="aside">
+          <img id="moonlightman" src="./public/canvamoonlightman.png" />
+        </div>
+        <div class="text">
+          <h1>Merhaba ben <span>Emircan</span>!</h1>
+          <p>4 yıllık yazılım sektörü deneyimimle, web geliştirme ve
+            yazılım ihtiyaçlarınız için profesyonel çözümler sunuyorum.
+            HTML, CSS, JavaScript, React, PHP, Python ve C++ gibi çeşitli
+            teknolojilerde uzmanım ve projenizi en iyi şekilde tamamlayabilirim.</p>
+        </div>
+      </div>
+      <div class="page" id="page2-content">
+        <!--second slide-->
+        <div class="text">
+            <h1>Sunduğum Hizmetler</h1>
+            <ul>
+              <li><p>Frontend Geliştirme: HTML, CSS, JavaScript ve React ile dinamik ve etkileşimli kullanıcı arayüzleri oluşturuyorum.</p></li>
+              <li><p>Backend Geliştirme: PHP ve Python ile güvenli ve verimli sunucu tarafı uygulamaları geliştiriyorum.</p></li>
+              <li><p>Tam Yığın Geliştirme: Hem frontend hem de backend geliştirme bilgimle, baştan sona eksiksiz web uygulamaları oluşturuyorum.</p></li>
+            </ul>
+        </div>
+        <div class="aside">
+          <img src="./public/website.svg"/>
+        </div>  
+      </div>
+      <div class="page" id="page3-content">
+        <div class="aside">
+          <img src="./public/contactme.svg"/>
+        </div>
+        <div class="text">
+            <h1>Benimle <span>İletişime</span> Geçin!</h1>
+            <div class="elements">
+              <a href="https://tr.linkedin.com/in/emircan-demirci-9ba76a1aa" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="mailto:emircandemirci12@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://github.com/emircandemirci" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
